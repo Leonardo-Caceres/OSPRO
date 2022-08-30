@@ -1,0 +1,71 @@
+.navbar{
+    background-color: rgb(33, 77, 114);
+}
+.up-header{
+    width: 100%;
+    background-color: rgb(198, 194, 194);
+}
+.phone img{
+    margin-left: 20px;
+}
+.phone p{
+    margin: 10px;
+    color: rgb(94, 93, 93);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button.navbar-toggler{
+    background-color: #2c7695;
+    border: solid 2px;
+}
+.buttons button{
+    font-size: 0.8rem;
+    background-color: rgb(33, 77, 114);
+    width: 120px;
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+.buttons button:hover{
+    background-color: #2C7695;
+}
+.modal-header{
+    background-color: rgb(33, 77, 114);
+}
+div.modal-footer button{
+    background-color: rgb(33, 77, 114);
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+div.modal-footer button:hover{
+    background-color: #2C7695;
+}
+button.btn-close{
+    color: white;
+}
+.modal-body img{
+    width: 20px;
+    height: 25px;
+}
+@media (max-width: 688px) {
+    .phone img{
+        height: 40px;
+    }
+    .caja{
+        width: 200px;
+        display: block;
+    }
+}
+@media (max-width: 992px){
+    .caja{
+        display: block;
+        justify-content: start;
+    }
+    .buttons button{
+        width: 120px;
+    }
+}
+@media (max-width: 1312px){
+
+}

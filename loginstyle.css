@@ -1,0 +1,82 @@
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/loginimages/mediclogin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box-question a{
+    color: green;
+    text-decoration: none;
+}
+.box-continue input{
+    width: 150px;
+    height: 60px;
+    background-color: #214D72;
+    color: white;
+    border-radius: 5px;
+}
+.box-continue input:hover{
+    background-color: #2C7695;
+}
+.box-google{
+    background-color: rgb(103, 153, 228);
+}
+.box-google a{
+    text-decoration: none;
+    color: white;
+}
+.box-facebook{
+    background-color: rgb(54, 54, 146);
+}
+.box-facebook img{
+    background-color: white;
+}
+.box-facebook a{
+    text-decoration: none;
+    color: white;
+}
+.container-login{
+    background-color: rgba( 44, 118, 149, 0.1);
+    border-radius: 10px;
+}
+
+.container-image{
+    background-color: #214D72;
+    border-radius: 10px;
+}
+#tarjeta-imagen{
+    border-radius: 10px 10px 10px 50%;
+    border: solid 2px black;
+}
+.gestion-button button{
+    width: 140px;
+    height: 60px;
+    background-color: #214D72;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.gestion-button button:hover{
+    background-color: #2C7695;
+}
+.modal-header{
+    background-color: rgb(33, 77, 114);
+}
+div.modal-footer button{
+    background-color: rgb(33, 77, 114);
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+div.modal-footer button:hover{
+    background-color: #2C7695;
+}
+button.btn-close{
+    color: white;
+}
+.modal-body img{
+    width: 20px;
+    height: 25px;
+}
